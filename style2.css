@@ -27,7 +27,7 @@ body {
 }
 /* Right */
 .right-section {
-    width: 50%;
+    width: 60%;
     height: 100%;
     border: solid rgb(2, 48, 51);
     border-bottom-right-radius: 22px;
@@ -59,20 +59,17 @@ h2 {
 
 
 .white-card {
-  width: 480px;
-  
+  width: 50%;
   border-radius: 20px;
   padding: 30px;
 }
 
-Header
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .header h2 {
+  color: #000000;
   margin: 0;
 }
 
@@ -103,7 +100,7 @@ Header
 }
 
 .input-box span {
-  padding: 10px 12px;
+  padding: 15px 5px;
   background: #f2f7fb;
   color: #5a7b90;
   font-size: 14px;
