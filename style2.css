@@ -1,0 +1,151 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 240, 250);
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    margin: 0 auto;
+    width: 60%;
+    height: 600px;
+    margin-top: 150px;
+    border-radius: 22px;
+
+}
+
+.left-section {
+    width: 50%;
+    height: 100%;
+    
+
+}
+/* Right */
+.right-section {
+    width: 50%;
+    height: 100%;
+    border: solid rgb(2, 48, 51);
+    border-bottom-right-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 70px;
+    background-color: rgb(2, 40, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.right-section img {
+    margin-top: 100px;    
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.right-section p {
+    width: 80%;
+    color: rgb(168, 166, 166);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.white-card {
+  width: 480px;
+  
+  border-radius: 20px;
+  padding: 30px;
+}
+
+Header
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.header a {
+  font-size: 14px;
+  color: #7a9bb2;
+  text-decoration: none;
+}
+
+/* Form */
+.field {
+  margin-top: 20px;
+}
+
+.field label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #445;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cfdde7;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.input-box span {
+  padding: 10px 12px;
+  background: #f2f7fb;
+  color: #5a7b90;
+  font-size: 14px;
+}
+
+.input-box span.right {
+  margin-left: auto;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  padding: 12px;
+  flex: 1;
+  font-size: 14px;
+}
+
+/* Row */
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+/* Radio */
+.radio {
+  border: 1px solid #cfdde7;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Button */
+.btn {
+  margin-top: 25px;
+  width: 100%;
+  padding: 14px;
+  background: #c8d82e;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
